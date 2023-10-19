@@ -1,7 +1,7 @@
 <?php
 
 #配置项目
-$APIname='ZiC API';		//API名称自定义
+
 $image_file='./img.txt';	//API数据文件
 
 #文件不见了
