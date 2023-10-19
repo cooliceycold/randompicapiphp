@@ -2,8 +2,7 @@ FROM php:8.0-apache
 
 # Install CURL and MySQL extensions
 RUN apt-get update && \
-    apt-get install -y libcurl4-openssl-dev libpq-dev git && \
-    docker-php-ext-install
+    apt-get install -y libcurl4-openssl-dev libpq-dev git
 
 WORKDIR /var/www/html
 
