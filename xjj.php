@@ -24,12 +24,10 @@ switch ($returnType) {
 	header("Location:" . $imgurl);
 
 	case 'json':				//当检测到参数为json
-		$json['API_name'] = $APIname;
-		$json['id'] = $randKey;
 		$json['imgurl'] = $imgurl;
 
 		
-		#检测图片状态码（按需开启）
+	/*	#检测图片状态码（按需开启）
 		$code = curl_init ($imgurl);
 		curl_setopt ($code,CURLOPT_RETURNTRANSFER,1);
 		curl_exec ($code);
@@ -43,7 +41,7 @@ switch ($returnType) {
 		header('Content-type:text/json');
 		echo json_encode($json,JSON_PRETTY_PRINT);
 		break;
-
+*/
 }
 
 ?>
