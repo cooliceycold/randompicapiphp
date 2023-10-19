@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:7.4-apache
 
 # Install CURL and MySQL extensions
 RUN apt-get update && \
