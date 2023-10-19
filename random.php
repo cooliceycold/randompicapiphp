@@ -2,7 +2,7 @@
 
 #配置项目
 
-$image_file='./img.txt';	//API数据文件
+$image_file='./xjj.txt';	//API数据文件
 
 #文件不见了
 if(!file_exists($image_file)) {
