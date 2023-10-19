@@ -23,7 +23,7 @@ switch ($returnType) {
 	default:				//默认情况下，直接返回链接
 	header("Location:" . $imgurl);
 
-/*	case 'json':				//当检测到参数为json
+	case 'json':				//当检测到参数为json
 		$json['API_name'] = $APIname;
 		$json['id'] = $randKey;
 		$json['imgurl'] = $imgurl;
@@ -43,7 +43,7 @@ switch ($returnType) {
 		header('Content-type:text/json');
 		echo json_encode($json,JSON_PRETTY_PRINT);
 		break;
-*/
+
 }
 
 ?>
