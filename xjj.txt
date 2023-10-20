@@ -1,5 +1,4 @@
 http://dsyai.club/api/youhuotu.php
-http://www.ggapi.cn/api/girls
 http://www.plapi.tk/api/hs.php
 http://api.yujn.cn/api/heisi.php
 https://api.suyanw.cn/api/hs
