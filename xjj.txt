@@ -1,6 +1,4 @@
 http://dsyai.club/api/youhuotu.php
-http://www.plapi.tk/api/hs.php
-https://api.suyanw.cn/api/hs
 https://www.onexiaolaji.cn/RandomPicture/api/?key=qq249663924&class=1.01
 https://www.onexiaolaji.cn/RandomPicture/api/?key=qq249663924&class=1.02
 https://www.onexiaolaji.cn/RandomPicture/api/?key=qq249663924&class=1.03
